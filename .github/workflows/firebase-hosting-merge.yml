@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: 12
     
-      #- name: Run CI
-      #  run: npm ci
+      - name: Run CI
+        run: npm install
 
       - name: Run Build
         run: npm run build
