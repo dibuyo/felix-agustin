@@ -18,8 +18,10 @@ jobs:
         with:
           node-version: 12
     
-      - name: Run npm
+      - name: Run CI
         run: npm ci
+
+      - name: Run Build
         run: npm run build
       
       - name: Firebase Deploy
