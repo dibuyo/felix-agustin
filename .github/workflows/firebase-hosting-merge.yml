@@ -12,12 +12,16 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
+        
       - name: Setup Node.Js
         uses: actions/setup-node@v1
         with:
           node-version: 12
+    
+      - name: Run npm
         run: npm ci
         run: npm run build
+      
       - name: Firebase Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
