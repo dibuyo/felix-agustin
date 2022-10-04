@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="396px" height="371px" viewBox="0 0 396 371" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <text id="text-1" font-family="Creepster-Regular, Creepster" font-size="32" font-weight="normal" fill="#84D6C2">
+            <tspan x="49.578125" y="30">Se viene Halloween y me </tspan>
+            <tspan x="20.640625" y="67">gustaría festejarlo con vos.</tspan>
+        </text>
+        <filter x="-0.6%" y="-1.6%" width="101.1%" height="103.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-0.6%" y="-1.6%" width="101.1%" height="103.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <text id="text-4" font-family="Creepster-Regular, Creepster" font-size="26" font-weight="normal" fill="#87DAC6">
+            <tspan x="30.0761719" y="185">Festejo mi cumple, En el Kid House.</tspan>
+            <tspan x="41.9208984" y="216">Es mucho más divertido si venis </tspan>
+            <tspan x="75.2714844" y="247">disfrazado, no te olvides!!</tspan>
+        </text>
+        <filter x="-0.5%" y="-1.6%" width="101.1%" height="103.1%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-0.5%" y="-1.6%" width="101.1%" height="103.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Large" transform="translate(-495.000000, -377.000000)">
+            <g id="Group" transform="translate(495.000000, 377.000000)">
+                <g id="Se-viene-Halloween-y" fill-rule="nonzero" fill="#84D6C2" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                    <use filter="url(#filter-3)" xlink:href="#text-1"></use>
+                </g>
+                <g id="Festejo-mi-cumple,-E" fill-rule="nonzero" fill="#87DAC6" fill-opacity="1">
+                    <use filter="url(#filter-5)" xlink:href="#text-4"></use>
+                    <use filter="url(#filter-6)" xlink:href="#text-4"></use>
+                </g>
+                <text id="22-de-OCtubre" font-family="Butcherman-Regular, Butcherman" font-size="57" font-weight="normal" fill="#6E240C">
+                    <tspan x="0.225585938" y="136">22 de OCtubre</tspan>
+                </text>
+                <text id="16:30hs" font-family="Butcherman-Regular, Butcherman" font-size="58" font-weight="normal" fill="#6E240C">
+                    <tspan x="101.78125" y="332">16:30hs</tspan>
+                </text>
+                <text id="hasta-las-19:30hs" font-family="Creepster-Regular, Creepster" font-size="18" font-weight="normal" fill="#6E240C">
+                    <tspan x="139.359375" y="367">hasta las 19:30hs</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
