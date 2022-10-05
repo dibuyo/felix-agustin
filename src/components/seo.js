@@ -11,7 +11,7 @@ export default function SEO({ description, title }) {
             <title>{`${title} | ${siteTitle}`}</title>
             <meta name="description" content={description} />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content="https://felixagustin.com.ar/img/anios.png" />
+            <meta property="og:image" content="https://felixagustin.com.ar/img/4-anios.png" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
             <meta property="og:site_name" content={siteTitle} />

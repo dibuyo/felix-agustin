@@ -12,8 +12,8 @@ function HomePage({ deviceType }){
 
   return <>
     <Meta
-      description="Festejo mi cumple número 3 y los quiero compartir con ustedes."
-      title="Bienvenidos"
+      description="Los espero disfrazados."
+      title="4 Años Felix"
   />
   {isPlaying && (
   <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
