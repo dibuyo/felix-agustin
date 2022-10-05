@@ -16,32 +16,20 @@ function HomePage({ deviceType }){
       title="Bienvenidos"
   />
   {isPlaying && (
-<header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
-    {deviceType !== 'mobile' && (
-      <video muted controls autoPlay playsinline
-        id="video"
-        onEnded={stopVideo}
-        className="absolute z-10 w-auto min-w-full lg:min-h-full lg:max-w-none"
-      >
-        <source src={'/video/intro.mp4'} type="video/mp4" />
-        <source src={'/video/intro.webm'} type="video/webm" />
-        <source src={'/video/intro.mov'} type="video/mov" />
-        Tu navegador no soporta videos
-      </video>)}
-    {deviceType === 'mobile' && (
-    <video controls autoPlay playsinline
-        onEnded={stopVideo}
-        className="absolute z-10 w-auto min-w-full lg:min-h-full lg:max-w-none"
-      >
-        <source src={'/video/intro.mp4'} type="video/mp4" />
-        <source src={'/video/intro.webm'} type="video/webm" />
-        <source src={'/video/intro.mov'} type="video/mov" />
-        Tu navegador no soporta videos
-      </video>)
-      }
-</header> )}
+  <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+        <video muted controls autoPlay
+          id="video"
+          onEnded={stopVideo}
+          className="absolute z-10 w-auto min-w-full lg:min-h-full lg:max-w-none"
+        >
+          <source src={'/video/intro.mp4'} type="video/mp4" />
+          <source src={'/video/intro.webm'} type="video/webm" />
+          <source src={'/video/intro.mov'} type="video/mov" />
+          Tu navegador no soporta videos
+        </video>)
+  </header> )}
 
-    <div className={deviceType !== 'mobile' && isPlaying ? 'hidden' : '' }>
+    <div className={isPlaying ? 'hidden' : '' }>
       <div className="object-none object-center mt-40 items-center lg:mt-auto">
         <img src={"/img/msg.png"} className="mt-40 ml-auto mr-auto"></img>
       </div>
@@ -82,18 +70,3 @@ function HomePage({ deviceType }){
 }
 
 export default HomePage
-
-export async function getServerSideProps(context) {
-
-  const UA = context.req.headers['user-agent'];
-
-  const isMobile = Boolean(UA.match(
-    /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i
-  ))
-  
-  return {
-    props: {
-      deviceType: isMobile ? 'mobile' : 'desktop'
-    }
-  }
-}
