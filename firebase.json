@@ -11,6 +11,12 @@
   },
   "functions": {
     "source": ".",
-    "runtime": "nodejs12"
+    "runtime": "nodejs14",
+    "ignore": [
+      ".firebase/**",
+      ".firebaserc",
+      "firebase.json",
+      "**/node_modules/**"
+    ]
   }
 }
